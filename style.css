@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "brittany";
+    src: url(fontes/BrittanySignature.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(fontes/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Bold";
+    src: url(fontes/Poppins-Bold.ttf);
+}
+:root{
+
+    --fonte01: "brittany";
+    --fonte02: "Poppins";
+    --fonte03: "Poppins Bold";
+}
+
+body{
+    background-color: #262626;
+ }
+ 
+
+
+.comimg{
+    background-image: url(imagens/background1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
+    
+}
+
+.fimdapag1{
+    font-family: var(--fonte01);
+    color: #5CE1E6;
+    text-align: right;
+    padding: 27px;
+    
+}
+
+.container01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Titulopequeno{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: initial;
+    font-family: var(--fonte01);
+    font-size: 30px;
+    color: #5CE1E6;
+}
+
+nav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    background-color: #262626;
+    
+    
+}
+
+
+
+
+a{
+    font-family:var(--fonte02);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+a:hover{
+    
+    color: rgba(0, 255, 255, 0.623);
+    transform:translate(10px)
+}
+
+
+header{
+    margin: 187px 74px 177px;;
+    
+    
+}
+header > p{
+    text-align: center;
+    font-family: var(--fonte02);
+    color: white;
+}
+
+
+#Pmaior{
+    font-size: 40px;
+    margin: 2px;
+}
+#Pmenor{
+    font-size: 21.9px;
+    margin: 2px;
+    margin-bottom: 30px;
+}
+
+header > h1{
+    text-align: center;
+    font-family: var(--fonte03);
+    color: white;
+    font-size: 83.8px;
+    margin: 2px;
+    
+}
+
+button {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid rgb(78, 231, 236);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    display: flex;
+    margin: auto;
+    font-family: var(--fonte03);
+  }
+  
+  button:hover {
+    background: rgba(94, 228, 252, 0.603);
+    box-shadow: 0 0 30px 5px rgba(119, 196, 247, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+  button:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+  }
+  
+  button::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  
+  @keyframes sh02 {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  
+  button:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+  }
+  
+  
+  .minhafoto{
+    width: 531px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 80px;
+    
+  }
+
+
+  .sobremim{
+    margin-left: 250px; 
+
+
+  }
+  
+  .sobremim > h1{
+    color: white;
+    font-family: var(--fonte02);
+  }
+
+  .sobremim > h2{
+    color: white;
+    font-family: var(--fonte02);
+  }
+
+  .sobremim > p{
+    color: white;
+    font-family: var(--fonte02);
+    padding-right: 50px;
+  }
+
+  .gitimg{
+    width: 30px;
+    padding: 10px;
+  }
+
+  .linkedinimg{
+    width: 30px;
+    padding: 10px;
+  }
+
+  .Instaimg{
+    width: 30px;
+    padding: 10px;
+  }
+
+  .redes{
+    display: flex;
+    justify-content: center;
+    transform: none;
+    
+  }
