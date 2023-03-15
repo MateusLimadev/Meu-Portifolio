@@ -204,7 +204,7 @@ button {
     box-shadow: 2px 2px 10px rgb(0, 0, 0);
     float: left;
     margin-right: 70px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     
   }
 
@@ -253,5 +253,104 @@ button {
     
   }
 
+
+
+   .cabecalho-formacao{
+    
+    margin: 65px 0px 24px;
+    background-color: #8FB6B7;
+    background-image: url(imagens/background03.png);
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 8px 1px 33px black;
+    
+   }
+
+
+
+   .cabecalho-formacao > h1{
+    color: #262626;
+    padding-top: 170px;
+   }
+
+  .logos{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    border-right: 10em;
+    margin-right: 10em;
+    margin-left: 10em;
+    
+  }
+
+  .artigo1{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-left: 19em;
+    line-height: 3em;
+   
+    
+  }
  
+
+  .artigo2{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-right: -36em;
+    margin-left: 10em;
+    
+    
+  }
+
+  
+ .artigo1 > h2{
+  color: #262626;
+  font-family: var(--fonte02);
+ }
+
+ .artigo1 > p{
+  color: #262626;
+  font-family: var(--fonte02);
+ }
+ 
+
+ .artigo2 > h2{
+  color: #262626;
+  font-family: var(--fonte02);
+ }
+
+ .artigo2 > p{
+  color: #262626;
+  font-family: var(--fonte02);
+  
+ }
+
+ .cursoscev{
+  line-height: 3em;
+ }
+
+ 
+ .imgestacio{
+  width: 10em;
+  height: 3em;
+  margin-right: 7em;
+ }
+ .imgcev{
+  width: 13em;
+  height: 4em;
+  padding-left: 15em;
+ }
+
+
+
+ .fimdapag2{
+  padding-left: 29em;
+  padding-top: 2em;
+  font-family: var(--fonte01);
+  font-size: 39px;
+  color: #262626;
+ }
+
  
