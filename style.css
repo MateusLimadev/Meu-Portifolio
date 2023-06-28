@@ -265,13 +265,14 @@ button {
     background-attachment: fixed;
     background-size: cover;
     box-shadow: 8px 1px 33px black;
+    border-radius: 10px;
     
    }
 
 
 
    .cabecalho-formacao > h1{
-    color: #262626;
+    color: #ffffff;
     padding-top: 170px;
    }
 
@@ -289,7 +290,7 @@ button {
     display: inline-block;
     text-align: center;
     justify-content: center;
-    margin-left: 19em;
+    margin-left: 13em;
     line-height: 3em;
    
     
@@ -308,23 +309,23 @@ button {
 
   
  .artigo1 > h2{
-  color: #262626;
+  color: #ffffff;
   font-family: var(--fonte02);
  }
 
  .artigo1 > p{
-  color: #262626;
+  color: #ffffff;
   font-family: var(--fonte02);
  }
  
 
  .artigo2 > h2{
-  color: #262626;
+  color: #ffffff;
   font-family: var(--fonte02);
  }
 
  .artigo2 > p{
-  color: #262626;
+  color: #ffffff;
   font-family: var(--fonte02);
   
  }
@@ -333,26 +334,13 @@ button {
   line-height: 3em;
  }
 
- 
- .imgestacio{
-  width: 10em;
-  height: 3em;
-  margin-right: 7em;
- }
- .imgcev{
-  width: 13em;
-  height: 4em;
-  padding-left: 15em;
- }
-
-
 
  .fimdapag2{
   padding-left: 29em;
   padding-top: 2em;
   font-family: var(--fonte01);
   font-size: 39px;
-  color: #262626;
+  color:  rgb(78, 231, 236);
  }
 
  
